@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gamified Offline Learning</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎮 Gamified Offline Learning Platform</h1>
+<p>🌍 Designed for rural students with low or no internet access.</p>
+
+<div id="login" class="screen">
+  <h2>Login</h2>
+  <input id="username" placeholder="Enter Name">
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="dashboard" class="screen">
+  <h2>Dashboard</h2>
+  <p id="welcome"></p>
+  <p>⭐ Points: <span id="points">0</span></p>
+  <p>🎯 Level: <span id="level">1</span></p>
+  <p>🏅 Badge: <span id="badge">Beginner</span></p>
+  <p>📈 Progress: <span id="progress">0</span>%</p>
+
+  <button onclick="show('quiz')">Play Quiz</button>
+  <button onclick="show('planner')">Smart Study Planner</button>
+  <button onclick="show('leaderboard')">Leaderboard</button>
+</div>
+
+<div id="quiz" class="screen">
+  <h2>Quiz</h2>
+  <p>5 × 2 = ?</p>
+  <button onclick="answer(true)">10</button>
+  <button onclick="answer(false)">8</button>
+</div>
+
+<div id="planner" class="screen">
+  <h2>🧠 Smart Study Planner</h2>
+  <p id="plannerText"></p>
+  <button onclick="show('dashboard')">Back</button>
+</div>
+
+<div id="leaderboard" class="screen">
+  <h2>🏆 Leaderboard</h2>
+  <p id="leaderData"></p>
+  <button onclick="show('dashboard')">Back</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gamified Offline Learning</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎮 Gamified Offline Learning Platform</h1>
+<p>🌍 Designed for rural students with low or no internet access.</p>
+
+<div id="login" class="screen">
+  <h2>Login</h2>
+  <input id="username" placeholder="Enter Name">
+  <button onclick="login()">Login</button>
+</div>
+
+<div id="dashboard" class="screen">
+  <h2>Dashboard</h2>
+  <p id="welcome"></p>
+  <p>⭐ Points: <span id="points">0</span></p>
+  <p>🎯 Level: <span id="level">1</span></p>
+  <p>🏅 Badge: <span id="badge">Beginner</span></p>
+  <p>📈 Progress: <span id="progress">0</span>%</p>
+
+  <button onclick="show('quiz')">Play Quiz</button>
+  <button onclick="show('planner')">Smart Study Planner</button>
+  <button onclick="show('leaderboard')">Leaderboard</button>
+</div>
+
+<div id="quiz" class="screen">
+  <h2>Quiz</h2>
+  <p>5 × 2 = ?</p>
+  <button onclick="answer(true)">10</button>
+  <button onclick="answer(false)">8</button>
+</div>
+
+<div id="planner" class="screen">
+  <h2>🧠 Smart Study Planner</h2>
+  <p id="plannerText"></p>
+  <button onclick="show('dashboard')">Back</button>
+</div>
+
+<div id="leaderboard" class="screen">
+  <h2>🏆 Leaderboard</h2>
+  <p id="leaderData"></p>
+  <button onclick="show('dashboard')">Back</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
